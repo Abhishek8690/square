@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 " />
+    <title>Square</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="header">
+        <div class="top-banner">
+          <div class="logo-section">
+            <a href="#" class="hamburger-anchor d-none-desktop">
+              <picture>
+                <source
+                  media="(min-width:768px)"
+                  srcset="../images/mobile/hamburger.jpg"
+                />
+                <img
+                  class="hamburger"
+                  src="../images/mobile/hamburger.jpg"
+                  alt="cannot show image"
+                />
+              </picture>
+            </a>
+            <a class="logo-anchor" href="#">
+              <picture>
+                <source
+                  media="(min-width:768px)"
+                  srcset="../images/mobile/logo.jpg"
+                />
+                <img
+                  class="logo"
+                  src="../images/mobile/logo.jpg"
+                  alt="cannot show image"
+                />
+              </picture>
+            </a>
+            <div class="utilities d-none-desktop">
+              <a href="#" class="user-anchor">
+                <picture>
+                  <source
+                    media="(min-width:768px)"
+                    srcset="../images/mobile/user.jpg"
+                  />
+                  <img
+                    class="user"
+                    src="../images/mobile/user.jpg"
+                    alt="cannot show image"
+                  />
+                </picture>
+              </a>
+              <a href="#" class="cart-anchor">
+                <picture>
+                  <source
+                    media="(min-width:768px)"
+                    srcset="../images/mobile/cart.jpg"
+                  />
+                  <img
+                    class="cart"
+                    src="../images/mobile/cart.jpg"
+                    alt="cannot show image"
+                  />
+                </picture>
+              </a>
+            </div>
+          </div>
+          <!-- <hr class="hor-line" /> -->
+          <div class="search-box">
+            <input type="text" placeholder="Search 3D Models,Projects..." />
+            <button type="button" class="search-btn">
+              <picture>
+                <source
+                  media="(min-width:768px)"
+                  srcset="../images/mobile/search.jpg"
+                />
+                <img
+                  class="search"
+                  src="../images/mobile/search.jpg"
+                  alt="cannot show image"
+                />
+              </picture>
+            </button>
+          </div>
+          <div class="desktop-login d-none">
+            <button type="button" class="share-button">Share your work</button>
+            <a href="#" class="login-desktop">Login</a>
+            <a href="#" class="cart-desktop">cart</a>
+            <a href="#" class="cart-desktop-anchor">
+              <div class="cart-desktop-container">
+                <picture>
+                  <source
+                    media="(min-width:768px)"
+                    srcset="../images/mobile/cart.jpg"
+                  />
+                  <img
+                    class="cart-desktop"
+                    src="../images/mobile/cart.jpg"
+                    alt="cannot show image"
+                  />
+                </picture>
+              </div>
+             
+            </a>
+          </div>
+        </div>
+        <nav class="navigation-section d-none">
+          <ul class="menu-ul">
+            <li class="menu-li">
+              <a class="menu-item" href="#"
+                >Freelance 3D Objects <span class="down-arrow"> &gt; </span></a
+              >
+            </li>
+            <li class="menu-li">
+              <a class="menu-item" href="#"
+                >Set 3D Models <span class="down-arrow"> &gt; </span></a
+              >
+            </li>
+            <li class="menu-li">
+              <a class="menu-item" href="#"
+                >Custom 3D Modelling <span class="down-arrow"> &gt; </span></a
+              >
+            </li>
+            <li class="menu-li">
+              <a class="menu-item" href="#"
+                >For Designers <span class="down-arrow"> &gt; </span></a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="main">
+        <a href="#" class="banner-anchor">
+          <div class="banner-image-container">
+            <picture>
+              <source
+                media="(min-width:768px)"
+                srcset="../images/mobile/banner-mobile.jpg"
+              />
+              <img
+                class="banner-image"
+                src="../images/mobile/banner-mobile.jpg"
+                alt="cannot show image"
+              />
+            </picture>
+          </div>
+          
+          <p class="banner-text">Search Thousands of 3D Models</p>
+        </a>
+        <div class="slick-slider">
+          <div class="slick-tiles">
+            <a href="#" class="image-container">
+              <div class="image-div">
+                <picture>
+                  <source
+                    media="(min-width:768px)"
+                    srcset="../images/mobile/Aircraft-mobile.jpg"
+                  />
+                  <img
+                    class="aircraft-image"
+                    src="../images/mobile/Aircraft-mobile.jpg"
+                    alt="cannot show image"
+                  />
+                </picture>
+              </div>
+              <p class="image-text">Aircraft</p>
+            </a>
+            <a href="#" class="image-container">
+              <div class="image-div">
+                <picture>
+                  <source
+                    media="(min-width:768px)"
+                    srcset="../images/mobile/Aircraft-mobile.jpg"
+                  />
+                  <img
+                    class="car-image"
+                    src="../images/mobile/Car-mobile.jpg"
+                    alt="cannot show image"
+                  />
+                </picture>
+              </div>
+              <p class="image-text">Car</p>
+            </a>
+            <a href="#" class="image-container">
+              <div class="image-div">
+                <picture>
+                  <source
+                    media="(min-width:768px)"
+                    srcset="../images/mobile/Aircraft-mobile.jpg"
+                  />
+                  <img
+                    class="architectural-image"
+                    src="../images/mobile/Architectural-mobile.jpg"
+                    alt="cannot show image"
+                  />
+                </picture>
+              </div>
+              <p class="image-text">Architectural</p>
+            </a>
+            <a href="#" class="image-container">
+              <div class="image-div">
+                <picture>
+                  <source
+                    media="(min-width:768px)"
+                    srcset="../images/mobile/Aircraft-mobile.jpg"
+                  />
+                  <img
+                    class="exterior-image"
+                    src="../images/mobile/Exterior-mobile.jpg"
+                    alt="cannot show image"
+                  />
+                </picture>
+              </div>
+
+              <p class="image-text">Exterior</p>
+            </a>
+            <a href="#" class="image-container">
+              <div class="image-div">
+                <picture>
+                  <source
+                    media="(min-width:768px)"
+                    srcset="../images/mobile/Aircraft-mobile.jpg"
+                  />
+                  <img
+                    class="interior-image"
+                    src="../images/mobile/Interior-mobile.jpg"
+                    alt="cannot show image"
+                  />
+                </picture>
+              </div>
+              <p class="image-text">Interior</p>
+            </a>
+            <a href="#" class="image-container">
+              <div class="image-div">
+                <picture>
+                  <source
+                    media="(min-width:768px)"
+                    srcset="../images/mobile/Aircraft-mobile.jpg"
+                  />
+                  <img
+                    class="character-image"
+                    src="../images/mobile/Character-mobile.jpg"
+                    alt="cannot show image"
+                  />
+                </picture>
+              </div>
+              <p class="image-text">Character</p>
+            </a>
+            <a href="#" class="image-container">
+              <div class="image-div">
+                <picture>
+                  <source
+                    media="(min-width:768px)"
+                    srcset="../images/mobile/Aircraft-mobile.jpg"
+                  />
+                  <img
+                    class="food-image"
+                    src="../images/mobile/Food-mobile.jpg"
+                    alt="cannot show image"
+                  />
+                </picture>
+              </div>
+
+              <p class="image-text">Food</p>
+            </a>
+            <a href="#" class="image-container">
+              <div class="image-div">
+                <picture>
+                  <source
+                    media="(min-width:768px)"
+                    srcset="../images/mobile/Aircraft-mobile.jpg"
+                  />
+                  <img
+                    class="animal-image"
+                    src="../images/mobile/Animal-mobile.jpg"
+                    alt="cannot show image"
+                  />
+                </picture>
+              </div>
+              <p class="image-text">Animal</p>
+            </a>
+          </div>
+          <div class="view-button-div">
+            <button type="button" class="view-button">View All</button>
+          </div>
+        </div>
+        <div class="three-d-modelling-div hero-section">
+          <p class="main-text">Looking For Custom 3D Modeling at Scale?</p>
+          <p class="three-d-modelling-description description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco
+          </p>
+          <button type="button" class="get-started-button">
+            Get Started Here
+          </button>
+          <div class="three-d-modelling-image-div">
+            <picture>
+              <source
+                media="(min-width:768px)"
+                srcset="../images/mobile/3d-modelling.jpg"
+              />
+              <img
+                class="3d-modelling-image"
+                src="../images/mobile/3d-modelling.jpg"
+                alt="cannot show image"
+              />
+            </picture>
+          </div>
+        </div>
+        <div class="three-d-model-marketplace-div hero-section">
+          <p class="main-text">3D Model Marketplace</p>
+          <p class="3d-model-marketplace-description description">
+            Choose from <span class="quantity">1 580 000</span> 3D models for
+            applications such as gaming, AR/VR, advertising, animation, movies
+            and 3D printing
+          </p>
+          <div class="bar-menu-div">
+            <div class="bar-menu">
+              <p class="three-d-models-menu">3D-models</p>
+              <p class="pbr-models-menu">Low-poly PBR 3D Models</p>
+              <p class="three-d-printing-menu">3D-printing</p>
+            </div>
+            <div class="menu-description description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam,
+            </div>
+          </div>
+          <button type="button" class="get-started-button">Know More</button>
+          <div class="three-d-model-marketplace-image"></div>
+          <picture>
+            <source
+              media="(min-width:768px)"
+              srcset="../images/mobile/3d-marketplace.jpg"
+            />
+            <img
+              class="3d-modelling-image"
+              src="../images/mobile/3d-marketplace.jpg"
+              alt="cannot show image"
+            />
+          </picture>
+        </div>
+        <div class="three-d-freelance-div hero-section">
+          <p class="main-text">
+            Sell your 3D Models and Find Freelance Projects
+          </p>
+          <div class="card-div">
+            <div class="card">
+              <p class="title">
+                Sell your 3D models and earn up to 80% royalties
+              </p>
+              <a href="#" class="navigation-link">Sell 3D Models</a>
+            </div>
+            <div class="card">
+              <p class="title">
+                Outsource your skills and get up to 95% royalties
+              </p>
+              <a href="#" class="navigation-link">Browse Jobs</a>
+            </div>
+            <div class="card">
+              <p class="title">Work with enterprise clients</p>
+              <a href="#" class="navigation-link">Get Qualified</a>
+            </div>
+            <div class="card">
+              <p class="title">Build your portfolio and be visible</p>
+              <a href="#" class="navigation-link">Browse Designers</a>
+            </div>
+          </div>
+          <div class="three-d-freelance-image">
+            <picture>
+              <source
+                media="(min-width:768px)"
+                srcset="../images/mobile/Aircraft-01 2.png"
+              />
+              <img
+                class="3d-freelance-image"
+                src="../images/mobile/Aircraft-01 2.png"
+                alt="cannot show image"
+              />
+            </picture>
+          </div>
+        </div>
+        <div class="join-squarebagal-div hero-section">
+          <p class="title main-text">Join Squarebagal</p>
+          <div class="info">
+            <div class="card">
+              <p class="info-title">Galleries</p>
+              <p class="info-description">
+                Showcase your best renders, get feedback and recognition
+              </p>
+            </div>
+            <div class="card">
+              <p class="info-title">Forum</p>
+              <p class="info-description">
+                Find tutorials and discuss other 3D related matters
+              </p>
+            </div>
+            <div class="card">
+              <p class="info-title">Tutorials</p>
+              <p class="info-description">Learn new skills and teach others</p>
+            </div>
+          </div>
+          <button class="join-button get-started-button" type="button">
+            Join The Community
+          </button>
+          <div class="join-squarebagal-image-container">
+            <picture>
+              <source
+                media="(min-width:768px)"
+                srcset="../images/mobile/join CGTrader community-01 1.png"
+              />
+              <img
+                class="join-squarebagal-image"
+                src="../images/mobile/join CGTrader community-01 1.png"
+                alt="cannot show image"
+              />
+            </picture>
+          </div>
+        </div>
+      </div>
+      <div class="footer hero-section">
+        <div class="newsletter-div">
+          <p class="title">Stay up to date</p>
+          <p class="newsletter-title">get our newsletter</p>
+          <form class="email-form">
+            <input type="text" class="email-field" placeholder="Your email" />
+            <button type="submit" class="email-button">
+              <img
+                src="../images/mobile/arrow-mobile.jpg"
+                alt="cannot load image"
+              />
+            </button>
+          </form>
+        </div>
+        <ul class="footer-menu-ul">
+          <li class="menu-item first-item">
+            <a href="#"
+              ><span>Company</span>
+              <i class="fa-solid fa-chevron-down"></i>
+            </a>
+            <ul class="menu-item-expanded d-none">
+              <li>
+                <a href="#">Blog</a>
+              </li>
+              <li>
+                <a href="#">Events</a>
+              </li>
+              <li>
+                <a href="#">Press</a>
+              </li>
+              <li>
+                <a href="#">Careers</a>
+              </li>
+              <li>
+                <a href="#">Help Center</a>
+              </li>
+              <li>
+                <a href="#">Contact Us</a>
+              </li>
+            </ul>
+          </li>
+          <li class="menu-item">
+            <a href="#"
+              ><span>Modelry</span>
+              <i class="fa-solid fa-chevron-down"></i>
+            </a>
+            <ul class="menu-item-expanded d-none">
+              <li>
+                <a href="#">3D Viewer</a>
+              </li>
+              <li>
+                <a href="#">3D Product</a>
+              </li>
+              <li>
+                <a href="#">Visualization</a>
+              </li>
+              <li>
+                <a href="#">3D Digital Asset</a>
+              </li>
+              <li>
+                <a href="#">Management</a>
+              </li>
+              <li>
+                <a href="#">Custom 3D</a>
+              </li>
+              <li>
+                <a href="#">Custom 3D</a>
+              </li>
+              <li>
+                <a href="#">Modeling</a>
+              </li>
+              <li>
+                <a href="#">Virtual</a>
+              </li>
+              <li>
+                <a href="#">Photography</a>
+              </li>
+            </ul>
+          </li>
+          <li class="menu-item">
+            <a href="#"
+              ><span>Sell 3D Models</span>
+              <i class="fa-solid fa-chevron-down"></i>
+            </a>
+            <ul class="menu-item-expanded d-none">
+              <li>
+                <a href="#">Community</a>
+              </li>
+              <li>
+                <a href="#">3D Designers</a>
+              </li>
+              <li>
+                <a href="#">Forum</a>
+              </li>
+              <li>
+                <a href="#">Freelance with Us</a>
+              </li>
+              <li>
+                <a href="#">Loyality Credits</a>
+              </li>
+              <li>
+                <a href="#">Program</a>
+              </li>
+            </ul>
+          </li>
+          <li class="menu-item">
+            <a href="#"
+              ><span>Get in Touch</span>
+              <i class="fa-solid fa-chevron-down"></i>
+            </a>
+            <ul class="menu-item-expanded d-none">
+              <li>
+                <a href="#">hello@squarbagal.com</a>
+              </li>
+              <li>
+                <a href="#">+91 8826688426</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+
+        <div class="social-media-links">
+          <div class="copyright">
+            <div class="social-media-container">
+              <div class="social-media">
+                <p class="title">See what we're up to</p>
+                <div class="social-media-icons">
+                  <a href="#" class="social-media-links">
+                    <picture>
+                      <source
+                        media="(min-width:768px)"
+                        srcset="../images/mobile/twitter-mobile.png"
+                      />
+                      <img
+                        class="social-media-image"
+                        src="../images/mobile/twitter-mobile.png"
+                        alt="cannot show image"
+                      />
+                    </picture>
+                  </a>
+                  <a href="#" class="social-media-links">
+                    <picture>
+                      <source
+                        media="(min-width:768px)"
+                        srcset="../images/mobile/twitter-mobile.png"
+                      />
+                      <img
+                        class="social-media-image"
+                        src="../images/mobile/twitter-mobile.png"
+                        alt="cannot show image"
+                      />
+                    </picture>
+                  </a>
+                  <a href="#" class="social-media-links">
+                    <picture>
+                      <source
+                        media="(min-width:768px)"
+                        srcset="../images/mobile/twitter-mobile.png"
+                      />
+                      <img
+                        class="social-media-image"
+                        src="../images/mobile/twitter-mobile.png"
+                        alt="cannot show image"
+                      />
+                    </picture>
+                  </a>
+                  <a href="#" class="social-media-links">
+                    <picture>
+                      <source
+                        media="(min-width:768px)"
+                        srcset="../images/mobile/twitter-mobile.png"
+                      />
+                      <img
+                        class="social-media-image"
+                        src="../images/mobile/twitter-mobile.png"
+                        alt="cannot show image"
+                      />
+                    </picture>
+                  </a>
+                </div>
+              </div>
+              <div class="footer-logo-div">
+                <div class="logo-container">
+                  <div class="footer-logo-image">
+                    <picture>
+                      <source
+                        media="(min-width:768px)"
+                        srcset="../images/mobile/footer-logo.png"
+                      />
+                      <img
+                        class="footer-logo-image"
+                        src="../images/mobile/footer-logo.png"
+                        alt="cannot show image"
+                      />
+                    </picture>
+                  </div>
+                  <p class="footer-logo-text">squarebagal</p>
+                </div>
+                <p class="copyright-text">© Copyright squarebagel 2022</p>
+                <p class="terms d-none">Terms and Conditions</p>
+                <p class="privacy-policy d-none">Privacy Policy</p>
+              </div>
+            </div>
+
+            <div class="bottom-image-div">
+              <picture>
+                <source
+                  media="(min-width:768px)"
+                  srcset="../images/mobile/footer-design.png"
+                />
+                <img
+                  class="bottom-image"
+                  src="../images/mobile/footer-design.png"
+                  alt="cannot show image"
+                />
+              </picture>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
